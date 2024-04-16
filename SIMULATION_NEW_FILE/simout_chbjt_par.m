@@ -6,7 +6,7 @@ if exist('myPool', 'var')
 end
 
 % 设置新的并行工作进程数量
-numWorkers = 2;
+numWorkers = 6;
 myPool = parpool(numWorkers);                                                           %并行池工作进程部署
 disp(['当前并行工作进程数量为：' num2str(length(myPool))]);
 %% 模型基本情况设置
