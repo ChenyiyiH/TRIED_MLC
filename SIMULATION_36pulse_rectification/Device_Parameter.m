@@ -1,0 +1,140 @@
+%% 器件参数
+Rth_h = 7.5e-3;
+Rth_h_tau = 0.5;
+% 65L4522 6KA
+IGCT_654522_6.rT = 0.39e-3;
+IGCT_654522_6.VT0 = 1.39;
+IGCT_654522_6.Idrm = 50e-3;
+IGCT_654522_6.Eon = 3;
+IGCT_654522_6.IT = 4000;
+IGCT_654522_6.Vdc = 2800;
+IGCT_654522_6.poly=[4E-7,0.0028,0.0651];
+IGCT_654522_6.Rth_ch_dou = 2.4e-3;
+IGCT_654522_6.Rth_ch_dou_tau = 0.3;
+IGCT_654522_6.Rth_jc1_dou = 3.45e-3;
+IGCT_654522_6.Rth_jc1_dou_tau = 0.605;
+IGCT_654522_6.Rth_jc2_dou = 2.26e-3;
+IGCT_654522_6.Rth_jc2_dou_tau = 0.101;
+IGCT_654522_6.Rth_jc3_dou = 0.97e-3;
+IGCT_654522_6.Rth_jc3_dou_tau = 0.0052;
+IGCT_654522_6.Rth_jc4_dou = 0.1e-3;
+IGCT_654522_6.Rth_jc4_dou_tau = 0.0006;
+IGCT_654522_6.Junc_temp_lim = 140;
+
+% 36L4520 3.6KA
+IGCT_364520_36.rT = 0.74e-3;
+IGCT_364520_36.VT0 = 1.59;
+IGCT_364520_36.Idrm = 100e-3;
+IGCT_364520_36.Eon = 1.4;
+IGCT_364520_36.IT = 1500;
+IGCT_364520_36.Vdc = 2800;
+IGCT_364520_36.poly=[1.4421e-10,-1.2646e-6,0.0044,0.74921];
+IGCT_364520_36.Rth_ch_dou = 5.1e-3;
+IGCT_364520_36.Rth_ch_dou_tau = 0.3;
+IGCT_364520_36.Rth_jc1_dou = 6.295e-3;
+IGCT_364520_36.Rth_jc1_dou_tau = 0.5551;
+IGCT_364520_36.Rth_jc2_dou = 2.912e-3;
+IGCT_364520_36.Rth_jc2_dou_tau = 0.1201;
+IGCT_364520_36.Rth_jc3_dou = 1.545e-3;
+IGCT_364520_36.Rth_jc3_dou_tau = 0.0079;
+IGCT_364520_36.Rth_jc4_dou = 0.257e-3;
+IGCT_364520_36.Rth_jc4_dou_tau = 0.0079;
+IGCT_364520_36.Junc_temp_lim = 125;
+
+% 36L4521 3.6KA
+IGCT_364521_36.rT = 0.51e-3;
+IGCT_364521_36.VT0 = 1.24;
+IGCT_364521_36.Idrm = 50e-3;
+IGCT_364521_36.Eon = 1.4;
+IGCT_364521_36.IT = 1500;
+IGCT_364521_36.Vdc = 2800;
+IGCT_364521_36.poly=[3.71535e-10,-3.10752e-6,0.01008,0.92512];
+IGCT_364521_36.Rth_ch_dou = 5.1e-3;
+IGCT_364521_36.Rth_ch_dou_tau = 0.3;
+IGCT_364521_36.Rth_jc1_dou = 6.295e-3;
+IGCT_364521_36.Rth_jc1_dou_tau = 0.5551;
+IGCT_364521_36.Rth_jc2_dou = 2.912e-3;
+IGCT_364521_36.Rth_jc2_dou_tau = 0.1201;
+IGCT_364521_36.Rth_jc3_dou = 1.545e-3;
+IGCT_364521_36.Rth_jc3_dou_tau = 0.0079;
+IGCT_364521_36.Rth_jc4_dou = 0.257e-3;
+IGCT_364521_36.Rth_jc4_dou_tau = 0.0079;
+IGCT_364521_36.Junc_temp_lim = 125;
+
+%34L4520 
+DIODE_344520.rF = 0.48e-3;
+DIODE_344520.VF0 = 1.46;
+DIODE_344520.Irrm = 80e-3;
+DIODE_344520.Err = 9;
+DIODE_344520.IFQ = 4000;
+DIODE_344520.Vdc = 2800;
+DIODE_344520.Rth_ch_dou = 2.2e-3;
+DIODE_344520.Rth_ch_dou_tau = 300e-3;
+DIODE_344520.Rth_jc1_dou = 0.44e-3;%0.66
+DIODE_344520.Rth_jc1_dou_tau= 0.005;
+DIODE_344520.Rth_jc2_dou = 2.255e-3;%1.07
+DIODE_344520.Rth_jc2_dou_tau = 0.1;%0.06
+DIODE_344520.Rth_jc3_dou = 2.915e-3;%3.81
+DIODE_344520.Rth_jc3_dou_tau = 0.8; %0.5
+DIODE_344520.Junc_temp_lim = 140;
+
+%20L4520 
+DIODE_204520.rF = 0.08e-3;
+DIODE_204520.VF0 = 1.56;
+DIODE_204520.Irrm = 150e-3;
+DIODE_204520.Err = 9;
+DIODE_204520.IFQ = 3300;
+DIODE_204520.Vdc = 2800;
+DIODE_204520.Rth_ch_dou = 3e-3;
+DIODE_204520.Rth_ch_dou_tau = 300e-3;
+DIODE_204520.Rth_jc1_dou = 3.708e-3;
+DIODE_204520.Rth_jc1_dou_tau= 0.5336;
+DIODE_204520.Rth_jc2_dou = 1.426e-3;
+DIODE_204520.Rth_jc2_dou_tau = 0.067;
+DIODE_204520.Rth_jc3_dou = 0.686e-3;
+DIODE_204520.Rth_jc3_dou_tau = 0.0074;
+DIODE_204520.Rth_jc4_dou = 0.176e-3;
+DIODE_204520.Rth_jc4_dou_tau = 0.0011;
+DIODE_204520.Junc_temp_lim = 140;
+
+%D1031SH
+DIODE_D1031SH.rF = 0.968e-3;
+DIODE_D1031SH.VF0 = 1.78;
+DIODE_D1031SH.Irrm = 100e-3;
+DIODE_D1031SH.Err = 7;
+DIODE_D1031SH.IFQ = 2500;
+DIODE_D1031SH.Vdc = 2800;
+DIODE_D1031SH.Rth_ch_dou = 3e-3;
+DIODE_D1031SH.Rth_ch_dou_tau = 300e-3;
+DIODE_D1031SH.Rth_jc1_dou = 3.54e-3;
+DIODE_D1031SH.Rth_jc1_dou_tau= 0.9;
+DIODE_D1031SH.Rth_jc2_dou = 3.73e-3;
+DIODE_D1031SH.Rth_jc2_dou_tau = 0.118;
+DIODE_D1031SH.Rth_jc3_dou = 1.55e-3;
+DIODE_D1031SH.Rth_jc3_dou_tau = 0.0282; 
+DIODE_D1031SH.Rth_jc4_dou = 0.93e-3;
+DIODE_D1031SH.Rth_jc4_dou_tau = 0.00422; 
+DIODE_D1031SH.Rth_jc5_dou = 0.25e-3;
+DIODE_D1031SH.Rth_jc5_dou_tau = 0.00134; 
+DIODE_D1031SH.Junc_temp_lim = 140;
+
+%D1331SH
+DIODE_D1331SH.rF = 0.948e-3;
+DIODE_D1331SH.VF0 = 2.13;
+DIODE_D1331SH.Irrm = 150e-3;
+DIODE_D1331SH.Err = 7;
+DIODE_D1331SH.IFQ = 2500;
+DIODE_D1331SH.Vdc = 2800;
+DIODE_D1331SH.Rth_ch_dou = 2.5e-3;
+DIODE_D1331SH.Rth_ch_dou_tau = 300e-3;
+DIODE_D1331SH.Rth_jc1_dou = 2.95e-3;
+DIODE_D1331SH.Rth_jc1_dou_tau= 0.78;
+DIODE_D1331SH.Rth_jc2_dou = 2e-3;
+DIODE_D1331SH.Rth_jc2_dou_tau = 0.131;
+DIODE_D1331SH.Rth_jc3_dou = 1.54e-3;
+DIODE_D1331SH.Rth_jc3_dou_tau = 0.0217; 
+DIODE_D1331SH.Rth_jc4_dou = 0.98e-3;
+DIODE_D1331SH.Rth_jc4_dou_tau = 0.00514; 
+DIODE_D1331SH.Rth_jc5_dou = 0.03e-3;
+DIODE_D1331SH.Rth_jc5_dou_tau = 0.00104; 
+DIODE_D1331SH.Junc_temp_lim = 140;
